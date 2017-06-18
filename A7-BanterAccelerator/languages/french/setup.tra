@@ -1,0 +1,24 @@
+@1 = ~Accelerateur de bavardages~
+@10 = ~Frequence : 900 ticks (1/15e de seconde) - Probabilite : 10 % (par defaut)~
+@11 = ~Frequence : 900 ticks - Probabilite : 25 %~
+@12 = ~Frequence : 900 ticks - Probabilite : 50 %~
+@20 = ~Frequence : 600 ticks - Probabilite : 10 %~
+@21 = ~Frequence : 600 ticks - Probabilite : 25 %~
+@22 = ~Frequence : 600 ticks - Probabilite : 50 %~
+@30 = ~Frequence : 450 ticks - Probabilite : 10 %~
+@31 = ~Frequence : 450 ticks - Probabilite : 25 %~
+@32 = ~Frequence : 450 ticks - Probabilite : 50 %~
+@40 = ~Frequence : 150 ticks - Probabilite : 10 %~
+@41 = ~Frequence : 150 ticks - Probabilite : 25 %~
+@42 = ~Frequence : 150 ticks - Probabilite : 50 %~
+@99 = ~Choisissez vous-meme le rythme des bavardages.~
+
+@100 = ~Ce composant n'est pas compatible avec votre jeu.~
+@101 = ~Vous avez saisi un nombre non valide. Veuillez saisir un nombre entier positif.~
+@102 = ~Vous avez saisi une probabilite non valide. Veuillez saisir une valeur comprise entre 0 et 100.~
+@103 = ~Veuillez valider par "y" pour oui, "n" pour non ou "c" pour annuler (cancel).~
+@104 = ~Installation interrompue par l'utilisateur.~
+
+@200 = ~Saisissez la frequence des bavardages en ticks (1/15e de seconde) :~
+@201 = ~Saisissez la probabilite d'engager un bavardage (en pourcentage) :~
+@202 = ~Vous avez choisi d'utiliser ces valeurs : frequence = %freq%, probabilite = %prob% ? ([Y]Oui, [N]on or [C]Annuler):~

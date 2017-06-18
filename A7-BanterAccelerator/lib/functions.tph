@@ -1,0 +1,41 @@
+/**
+ * Sets one or more values in the banter timing table.
+ */
+DEFINE_ACTION_FUNCTION SET_BANTER_VALUES
+INT_VAR
+  frequency           = "-1"
+  probability         = "-1"
+  replayDelay         = "-1"
+  specialProbability  = "-1"
+BEGIN
+  ACTION_IF (FILE_EXISTS_IN_GAME ~banttimg.2da~ AND
+             (frequency != "-1" OR probability != "-1" OR replayDelay != "-1" OR specialProbability != "-1")) BEGIN
+    COPY_EXISTING ~banttimg.2da~ ~override~
+      COUNT_2DA_COLS numCols
+      COUNT_2DA_ROWS numCols numRows
+      FOR (row = 0; row < numRows; row += 1) BEGIN
+        READ_2DA_ENTRY row 0 numCols name
+        PATCH_IF (frequency != "-1" AND ~%name%~ STRING_EQUAL_CASE ~FREQUENCY~) BEGIN
+          PATCH_LOG ~DEBUG: frequency set to %frequency%~
+          SET_2DA_ENTRY row 1 numCols ~%frequency%~
+          SET frequency = "-1"
+        END ELSE PATCH_IF (probability != "-1" AND ~%name%~ STRING_EQUAL_CASE ~PROBABILITY~) BEGIN
+          PATCH_LOG ~DEBUG: probability set to %probability%~
+          SET_2DA_ENTRY row 1 numCols ~%probability%~
+          SET probability = "-1"
+        END ELSE PATCH_IF (replayDelay != "-1" AND ~%name%~ STRING_EQUAL_CASE ~REPLAYDELAY~) BEGIN
+          PATCH_LOG ~DEBUG: replayDelay set to %replayDelay%~
+          SET_2DA_ENTRY row 1 numCols ~%replayDelay%~
+          SET replayDelay = "-1"
+        END ELSE PATCH_IF (specialProbability != "-1" AND ~%name%~ STRING_EQUAL_CASE ~SPECIALPROBABILITY~) BEGIN
+          PATCH_LOG ~DEBUG: specialProbability set to %specialProbability%~
+          SET_2DA_ENTRY row 1 numCols ~%specialProbability%~
+          SET specialProbability = "-1"
+        END
+        PATCH_IF (frequency = "-1" AND probability = "-1" AND replayDelay = "-1" AND specialProbability = "-1") BEGIN
+          SET row = numRows
+        END
+      END
+    BUT_ONLY
+  END
+END

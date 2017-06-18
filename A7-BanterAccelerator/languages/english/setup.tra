@@ -1,0 +1,24 @@
+@1 = ~Banter Accelerator~
+@10 = ~Frequency: 900 ticks (1/15th seconds), Probability: 10%~
+@11 = ~Frequency: 900 ticks, Probability: 25%~
+@12 = ~Frequency: 900 ticks, Probability: 50%~
+@20 = ~Frequency: 600 ticks, Probability: 10% (default)~
+@21 = ~Frequency: 600 ticks, Probability: 25%~
+@22 = ~Frequency: 600 ticks, Probability: 50%~
+@30 = ~Frequency: 450 ticks, Probability: 10%~
+@31 = ~Frequency: 450 ticks, Probability: 25%~
+@32 = ~Frequency: 450 ticks, Probability: 50%~
+@40 = ~Frequency: 150 ticks, Probability: 10%~
+@41 = ~Frequency: 150 ticks, Probability: 25%~
+@42 = ~Frequency: 150 ticks, Probability: 50%~
+@99 = ~User-defined~
+
+@100 = ~Not supported by this game.~
+@101 = ~Invalid number specified. Use positive integers.~
+@102 = ~Number is out of range. Use values between 0 and 100.~
+@103 = ~Please specify "y" for yes, "n" for no or "c" for cancel.~
+@104 = ~Installation cancelled by user.~
+
+@200 = ~Enter frequency in ticks (1/15th seconds):~
+@201 = ~Enter probability (in percent):~
+@202 = ~Use these values: frequency = %freq%, probability = %prob% ? ([Y]es, [N]o or [C]ancel):~

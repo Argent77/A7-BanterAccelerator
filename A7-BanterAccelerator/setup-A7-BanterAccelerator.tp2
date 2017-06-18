@@ -1,0 +1,161 @@
+BACKUP ~A7-BanterAccelerator/backup~
+AUTHOR ~Argent77 at Beamdog Forums~
+VERSION ~1.2~
+
+ALWAYS
+  INCLUDE ~%MOD_FOLDER%/lib/functions.tph~
+END
+
+README ~%MOD_FOLDER%/readme/readme-%LANGUAGE%.txt~
+       ~%MOD_FOLDER%/readme/readme.txt~
+
+LANGUAGE ~English~
+         ~english~
+         ~%MOD_FOLDER%/languages/english/setup.tra~
+LANGUAGE ~French (Translation by Gwendolyne)~
+         ~french~
+         ~%MOD_FOLDER%/languages/french/setup.tra~
+LANGUAGE ~German~
+         ~german~
+         ~%MOD_FOLDER%/languages/german/setup.tra~
+
+BEGIN @10 // Frequency: 900 seconds, Probability: 10%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 10
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 10 END
+
+BEGIN @11 // Frequency: 900 seconds, Probability: 25%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 11
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 25 END
+
+BEGIN @12 // Frequency: 900 seconds, Probability: 50%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 12
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 50 END
+
+BEGIN @20 // Frequency: 600 seconds, Probability: 10% (default)
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 20
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 10 END
+
+BEGIN @21 // Frequency: 600 seconds, Probability: 25%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 21
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 25 END
+
+BEGIN @22 // Frequency: 600 seconds, Probability: 50%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 22
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 50 END
+
+BEGIN @30 // Frequency: 450 seconds, Probability: 10%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 30
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 10 END
+
+BEGIN @31 // Frequency: 450 seconds, Probability: 25%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 31
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 25 END
+
+BEGIN @32 // Frequency: 450 seconds, Probability: 50%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 32
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 50 END
+
+BEGIN @40 // Frequency: 150 seconds, Probability: 10%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 40
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 150 probability = 10 END
+
+BEGIN @41 // Frequency: 150 seconds, Probability: 25%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 41
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 150 probability = 25 END
+
+BEGIN @42 // Frequency: 150 seconds, Probability: 50%
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 42
+
+  LAF SET_BANTER_VALUES INT_VAR frequency = 150 probability = 50 END
+
+BEGIN @99 // User-defined
+  REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
+  SUBCOMPONENT @1 // Banter Accelerator
+  DESIGNATED 99
+
+  OUTER_SET accept = 0
+  OUTER_WHILE (accept = 0) BEGIN
+    OUTER_SET freq = "-1"
+    OUTER_WHILE (freq = "-1") BEGIN
+      PRINT @200 // Enter frequency (in seconds):
+      ACTION_READLN value
+      ACTION_IF (~%value%~ STRING_MATCHES_REGEXP ~[1-9][0-9]*~ = 0) BEGIN
+        OUTER_SET freq = value
+      END ELSE BEGIN
+        PRINT @101 // Invalid number specified. Use positive integers.
+      END
+    END
+
+    OUTER_SET prob = "-1"
+    OUTER_WHILE (prob = "-1") BEGIN
+      PRINT @201 // Enter probability (in percent):
+      ACTION_READLN value
+      ACTION_IF (~%value%~ STRING_EQUAL ~0~ OR ~%value%~ STRING_MATCHES_REGEXP ~[1-9][0-9]*~ = 0) BEGIN
+        ACTION_IF (value >= 0 AND value <= 100) BEGIN
+          OUTER_SET prob = value
+        END ELSE BEGIN
+          PRINT @102 // Number is out of range. Use values between 0 and 100.
+        END
+      END ELSE BEGIN
+        PRINT @101 // Invalid number specified. Use positive integers.
+      END
+    END
+
+    OUTER_SET proceed = 0
+    OUTER_WHILE (proceed = 0) BEGIN
+      PRINT @202  // Use these values: frequency=%freq%, probability=%prob%? ([Y]es, [N]o or [C]ancel):
+      ACTION_READLN value
+      ACTION_IF (~%value%~ STRING_EQUAL_CASE ~y~ OR ~%value%~ STRING_EQUAL_CASE ~yes~) BEGIN
+        OUTER_SET proceed = 1
+        OUTER_SET accept = 1
+      END ELSE ACTION_IF (~%value%~ STRING_EQUAL_CASE ~n~ OR ~%value%~ STRING_EQUAL_CASE ~no~) BEGIN
+        OUTER_SET proceed = 1
+      END ELSE ACTION_IF (~%value%~ STRING_EQUAL_CASE ~c~ OR ~%value%~ STRING_EQUAL_CASE ~cancel~) BEGIN
+        OUTER_SET proceed = 1
+        OUTER_SET accept = "-1"
+      END ELSE BEGIN
+        PRINT @103  // Please specify "y" for yes, "n" for no or "c" for cancel.
+      END
+    END
+  END
+
+  ACTION_IF (accept > 0) BEGIN
+    LAF SET_BANTER_VALUES INT_VAR frequency = freq probability = prob END
+  END ELSE BEGIN
+    FAIL @104 // Installation cancelled.
+  END
