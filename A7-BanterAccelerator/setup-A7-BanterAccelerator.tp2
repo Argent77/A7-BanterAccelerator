@@ -155,7 +155,11 @@ BEGIN @99 // User-defined
   END
 
   ACTION_IF (accept > 0) BEGIN
-    LAF SET_BANTER_VALUES INT_VAR frequency = freq probability = prob END
+    LAF SET_BANTER_VALUES
+    INT_VAR
+      frequency = freq * 15
+      probability = prob
+    END
   END ELSE BEGIN
     FAIL @104 // Installation cancelled.
   END

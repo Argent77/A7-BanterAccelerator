@@ -1,16 +1,16 @@
 @1 = ~Accelerateur de bavardages~
-@10 = ~Frequence : 900 ticks (1/15e de seconde) - Probabilite : 10 % (par defaut)~
-@11 = ~Frequence : 900 ticks - Probabilite : 25 %~
-@12 = ~Frequence : 900 ticks - Probabilite : 50 %~
-@20 = ~Frequence : 600 ticks - Probabilite : 10 %~
-@21 = ~Frequence : 600 ticks - Probabilite : 25 %~
-@22 = ~Frequence : 600 ticks - Probabilite : 50 %~
-@30 = ~Frequence : 450 ticks - Probabilite : 10 %~
-@31 = ~Frequence : 450 ticks - Probabilite : 25 %~
-@32 = ~Frequence : 450 ticks - Probabilite : 50 %~
-@40 = ~Frequence : 150 ticks - Probabilite : 10 %~
-@41 = ~Frequence : 150 ticks - Probabilite : 25 %~
-@42 = ~Frequence : 150 ticks - Probabilite : 50 %~
+@10 = ~Frequence : 60 secondes - Probabilite : 10 %~
+@11 = ~Frequence : 60 secondes - Probabilite : 25 %~
+@12 = ~Frequence : 60 secondes - Probabilite : 50 %~
+@20 = ~Frequence : 40 secondes - Probabilite : 10 % (par defaut)~
+@21 = ~Frequence : 40 secondes - Probabilite : 25 %~
+@22 = ~Frequence : 40 secondes - Probabilite : 50 %~
+@30 = ~Frequence : 30 secondes - Probabilite : 10 %~
+@31 = ~Frequence : 30 secondes - Probabilite : 25 %~
+@32 = ~Frequence : 30 secondes - Probabilite : 50 %~
+@40 = ~Frequence : 10 secondes - Probabilite : 10 %~
+@41 = ~Frequence : 10 secondes - Probabilite : 25 %~
+@42 = ~Frequence : 10 secondes - Probabilite : 50 %~
 @99 = ~Choisissez vous-meme le rythme des bavardages.~
 
 @100 = ~Ce composant n'est pas compatible avec votre jeu.~
@@ -19,6 +19,6 @@
 @103 = ~Veuillez valider par "y" pour oui, "n" pour non ou "c" pour annuler (cancel).~
 @104 = ~Installation interrompue par l'utilisateur.~
 
-@200 = ~Saisissez la frequence des bavardages en ticks (1/15e de seconde) :~
+@200 = ~Saisissez la frequence des bavardages en secondes :~
 @201 = ~Saisissez la probabilite d'engager un bavardage (en pourcentage) :~
-@202 = ~Vous avez choisi d'utiliser ces valeurs : frequence = %freq%, probabilite = %prob% ? ([Y]Oui, [N]on or [C]Annuler):~
+@202 = ~Vous avez choisi d'utiliser ces valeurs : frequence = %freq% secondes, probabilite = %prob% pourcentage ? ([Y]Oui, [N]on or [C]Annuler):~

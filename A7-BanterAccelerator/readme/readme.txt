@@ -58,6 +58,9 @@ Attribution-ShareAlike 4.0 International License" (http://creativecommons.org/li
 History
 ~~~~~~~
 
+1.3
+- Made install options more user-friendly by replacing ticks with seconds
+
 1.2
 - Added French translation (thanks Gwendolyne)
 - Added German translation

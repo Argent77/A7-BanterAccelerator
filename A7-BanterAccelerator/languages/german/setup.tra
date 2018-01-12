@@ -1,16 +1,16 @@
 @1 = ~Banterbeschleuniger~
-@10 = ~Frequenz: 900 Ticks (1/15 Sekunden), Wahrscheinlichkeit: 10%~
-@11 = ~Frequenz: 900 Ticks, Wahrscheinlichkeit: 25%~
-@12 = ~Frequenz: 900 Ticks, Wahrscheinlichkeit: 50%~
-@20 = ~Frequenz: 600 Ticks, Wahrscheinlichkeit: 10% (Standard)~
-@21 = ~Frequenz: 600 Ticks, Wahrscheinlichkeit: 25%~
-@22 = ~Frequenz: 600 Ticks, Wahrscheinlichkeit: 50%~
-@30 = ~Frequenz: 450 Ticks, Wahrscheinlichkeit: 10%~
-@31 = ~Frequenz: 450 Ticks, Wahrscheinlichkeit: 25%~
-@32 = ~Frequenz: 450 Ticks, Wahrscheinlichkeit: 50%~
-@40 = ~Frequenz: 150 Ticks, Wahrscheinlichkeit: 10%~
-@41 = ~Frequenz: 150 Ticks, Wahrscheinlichkeit: 25%~
-@42 = ~Frequenz: 150 Ticks, Wahrscheinlichkeit: 50%~
+@10 = ~Frequenz: 60 Sekunden, Wahrscheinlichkeit: 10%~
+@11 = ~Frequenz: 60 Sekunden, Wahrscheinlichkeit: 25%~
+@12 = ~Frequenz: 60 Sekunden, Wahrscheinlichkeit: 50%~
+@20 = ~Frequenz: 40 Sekunden, Wahrscheinlichkeit: 10% (Standard)~
+@21 = ~Frequenz: 40 Sekunden, Wahrscheinlichkeit: 25%~
+@22 = ~Frequenz: 40 Sekunden, Wahrscheinlichkeit: 50%~
+@30 = ~Frequenz: 30 Sekunden, Wahrscheinlichkeit: 10%~
+@31 = ~Frequenz: 30 Sekunden, Wahrscheinlichkeit: 25%~
+@32 = ~Frequenz: 30 Sekunden, Wahrscheinlichkeit: 50%~
+@40 = ~Frequenz: 10 Sekunden, Wahrscheinlichkeit: 10%~
+@41 = ~Frequenz: 10 Sekunden, Wahrscheinlichkeit: 25%~
+@42 = ~Frequenz: 10 Sekunden, Wahrscheinlichkeit: 50%~
 @99 = ~Benutzerdefiniert~
 
 @100 = ~Wird nicht von diesem Spiel unterstuetzt.~
@@ -19,6 +19,6 @@
 @103 = ~Bitte "y" fuer Ja, "n" fuer Nein oder "c" fuer Abbruch eingeben.~
 @104 = ~Installation wurde durch den Nutzer abgebrochen.~
 
-@200 = ~Frequenz in Ticks (1/15 Sekunden):~
+@200 = ~Frequenz in Sekunden:~
 @201 = ~Wahrscheinlichkeit (in Prozent):~
-@202 = ~Folgende Werte anwenden: Frequenz = %freq%, Wahrscheinlichkeit = %prob% ? ([Y]Ja, [N]ein oder [C]Abbruch):~
+@202 = ~Folgende Werte anwenden: Frequenz = %freq% Sekunden, Wahrscheinlichkeit = %prob% Prozent? ([Y]Ja, [N]ein oder [C]Abbruch):~
