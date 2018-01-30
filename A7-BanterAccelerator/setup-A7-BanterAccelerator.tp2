@@ -19,84 +19,84 @@ LANGUAGE ~German~
          ~german~
          ~%MOD_FOLDER%/languages/german/setup.tra~
 
-BEGIN @10 // Frequency: 900 seconds, Probability: 10%
+BEGIN @10 // Frequency: 60 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 10
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 10 END
 
-BEGIN @11 // Frequency: 900 seconds, Probability: 25%
+BEGIN @11 // Frequency: 60 seconds, Probability: 25%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 11
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 25 END
 
-BEGIN @12 // Frequency: 900 seconds, Probability: 50%
+BEGIN @12 // Frequency: 60 seconds, Probability: 50%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 12
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 50 END
 
-BEGIN @20 // Frequency: 600 seconds, Probability: 10% (default)
+BEGIN @20 // Frequency: 40 seconds, Probability: 10% (default)
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 20
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 10 END
 
-BEGIN @21 // Frequency: 600 seconds, Probability: 25%
+BEGIN @21 // Frequency: 40 seconds, Probability: 25%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 21
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 25 END
 
-BEGIN @22 // Frequency: 600 seconds, Probability: 50%
+BEGIN @22 // Frequency: 40 seconds, Probability: 50%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 22
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 50 END
 
-BEGIN @30 // Frequency: 450 seconds, Probability: 10%
+BEGIN @30 // Frequency: 30 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 30
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 10 END
 
-BEGIN @31 // Frequency: 450 seconds, Probability: 25%
+BEGIN @31 // Frequency: 30 seconds, Probability: 25%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 31
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 25 END
 
-BEGIN @32 // Frequency: 450 seconds, Probability: 50%
+BEGIN @32 // Frequency: 30 seconds, Probability: 50%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 32
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 50 END
 
-BEGIN @40 // Frequency: 150 seconds, Probability: 10%
+BEGIN @40 // Frequency: 10 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 40
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 150 probability = 10 END
 
-BEGIN @41 // Frequency: 150 seconds, Probability: 25%
+BEGIN @41 // Frequency: 10 seconds, Probability: 25%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 41
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 150 probability = 25 END
 
-BEGIN @42 // Frequency: 150 seconds, Probability: 50%
+BEGIN @42 // Frequency: 10 seconds, Probability: 50%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 42
@@ -138,7 +138,7 @@ BEGIN @99 // User-defined
 
     OUTER_SET proceed = 0
     OUTER_WHILE (proceed = 0) BEGIN
-      PRINT @202  // Use these values: frequency=%freq%, probability=%prob%? ([Y]es, [N]o or [C]ancel):
+      PRINT @202  // Use these values: frequency = %freq% seconds, probability = %prob% percent? ([Y]es, [N]o or [C]ancel):
       ACTION_READLN value
       ACTION_IF (~%value%~ STRING_EQUAL_CASE ~y~ OR ~%value%~ STRING_EQUAL_CASE ~yes~) BEGIN
         OUTER_SET proceed = 1
