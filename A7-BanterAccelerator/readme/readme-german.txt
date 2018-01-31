@@ -1,7 +1,7 @@
 Banterbeschleuniger für "Enhanced Edition"-Spiele
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version:    1.2
+Version:    1.3
 Autor:      Argent77
 
 Download:   https://
@@ -60,6 +60,9 @@ Attribution-ShareAlike 4.0 International License" (http://creativecommons.org/li
 
 History
 ~~~~~~~
+
+1.3
+- Made install options more user-friendly by replacing ticks with seconds
 
 1.2
 - Added French translation (thanks Gwendolyne)
