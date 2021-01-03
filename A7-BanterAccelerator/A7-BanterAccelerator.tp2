@@ -11,13 +11,13 @@ README ~%MOD_FOLDER%/readme/readme-%LANGUAGE%.txt~
 
 LANGUAGE ~English~
          ~english~
-         ~%MOD_FOLDER%/languages/english/setup.tra~
+         ~A7-BanterAccelerator/languages/english/setup.tra~
 LANGUAGE ~French (Translation by Gwendolyne)~
          ~french~
-         ~%MOD_FOLDER%/languages/french/setup.tra~
+         ~A7-BanterAccelerator/languages/french/setup.tra~
 LANGUAGE ~German~
          ~german~
-         ~%MOD_FOLDER%/languages/german/setup.tra~
+         ~A7-BanterAccelerator/languages/german/setup.tra~
 
 BEGIN @10 // Frequency: 60 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
