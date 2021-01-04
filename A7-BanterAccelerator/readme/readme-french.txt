@@ -1,7 +1,7 @@
 Accélérateur de bavardages pour les Éditions améliorées
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version        : 1.3
+Version        : 1.4
 Auteur         : Argent77
 
 Téléchargement : https://
@@ -61,6 +61,12 @@ Attribution-ShareAlike 4.0 International License" (http://creativecommons.org/li
 
 History
 ~~~~~~~
+
+1.4
+- Added Project Infinity metadata
+- Added German translation for WeiDU prompts
+- Added WeiDU SUPPORT information
+- Fixed potential display issues with component names in WeiDU.log and Project Infinity
 
 1.3
 - Made install options more user-friendly by replacing ticks with seconds
