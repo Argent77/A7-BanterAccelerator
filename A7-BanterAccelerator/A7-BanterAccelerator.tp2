@@ -1,22 +1,29 @@
-BACKUP ~A7-BanterAccelerator/backup~
+BACKUP ~weidu_external/backup/A7-BanterAccelerator~
 SUPPORT ~https://forums.beamdog.com/discussion/64551~
 VERSION ~1.4~
 
 ALWAYS
+  // required because of non-standard BACKUP path
+  OUTER_TEXT_SPRINT MOD_FOLDER ~A7-BanterAccelerator~
+  // root folder for mutable data
+  OUTER_TEXT_SPRINT WORK_FOLDER ~weidu_external~
+
   INCLUDE ~%MOD_FOLDER%/lib/functions.tph~
 END
 
-README ~%MOD_FOLDER%/readme/readme-%LANGUAGE%.txt~
-       ~%MOD_FOLDER%/readme/readme.txt~
+README ~A7-BanterAccelerator/readme/readme-%LANGUAGE%.txt~
+       ~A7-BanterAccelerator/readme/readme.txt~
 
 LANGUAGE ~English~
          ~english~
          ~A7-BanterAccelerator/languages/english/setup.tra~
 LANGUAGE ~French (Translation by Gwendolyne)~
          ~french~
+         ~A7-BanterAccelerator/languages/english/setup.tra~
          ~A7-BanterAccelerator/languages/french/setup.tra~
 LANGUAGE ~German~
          ~german~
+         ~A7-BanterAccelerator/languages/english/setup.tra~
          ~A7-BanterAccelerator/languages/german/setup.tra~
 
 BEGIN @10 // Frequency: 60 seconds, Probability: 10%
