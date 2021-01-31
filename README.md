@@ -1,5 +1,13 @@
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Argent77/A7-BanterAccelerator?color=darkred&include_prereleases&label=latest%20release)](https://GitHub.com/Argent77/A7-BanterAccelerator/releases/latest)
+[![GitHub release date (latest by date)](https://img.shields.io/github/release-date/Argent77/A7-BanterAccelerator?color=gold)](https://GitHub.com/Argent77/A7-BanterAccelerator/releases/latest)
+[![Github downloads (all releases)](https://img.shields.io/github/downloads/Argent77/A7-BanterAccelerator/total.svg?color=blueviolet)](https://GitHub.com/Argent77/A7-BanterAccelerator/releases)
+[![Platform](https://img.shields.io/static/v1?label=platform&message=Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Project%20Infinity&color=informational)](https://GitHub.com/Argent77/A7-BanterAccelerator/releases/latest)
+[![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German&color=limegreen)]()
+
 # Banter Accelerator for Enhanced Edition games
 *A WeiDU mod for Enhanced Edition games that can be used to modify the party banter behavior*
+
+[![Beamdog Forums](https://img.shields.io/static/v1?label=Discussion&message=Beamdog%20Forums&color=444&labelColor=eee&style=flat)](https://forums.beamdog.com/discussion/64551)
 
 ## Overview
 
