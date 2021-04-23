@@ -1,24 +1,24 @@
 @1 = ~Banter Accelerator~
-@10 = ~Frequência: 60 segundos, Probabilidade: 10%~
-@11 = ~Frequência: 60 segundos, Probabilidade: 25%~
-@12 = ~Frequência: 60 segundos, Probabilidade: 50%~
-@20 = ~Frequência: 40 segundos, Probabilidade: 10% (padrão)~
-@21 = ~Frequência: 40 segundos, Probabilidade: 25%~
-@22 = ~Frequência: 40 segundos, Probabilidade: 50%~
-@30 = ~Frequência: 30 segundos, Probabilidade: 10%~
-@31 = ~Frequência: 30 segundos, Probabilidade: 25%~
-@32 = ~Frequência: 30 segundos, Probabilidade: 50%~
-@40 = ~Frequência: 10 segundos, Probabilidade: 10%~
-@41 = ~Frequência: 10 segundos, Probabilidade: 25%~
-@42 = ~Frequência: 10 segundos, Probabilidade: 50%~
-@99 = ~Definido-pelo-usuário~
+@10 = ~FrequÃªncia: 60 segundos, Probabilidade: 10%~
+@11 = ~FrequÃªncia: 60 segundos, Probabilidade: 25%~
+@12 = ~FrequÃªncia: 60 segundos, Probabilidade: 50%~
+@20 = ~FrequÃªncia: 40 segundos, Probabilidade: 10% (padrÃ£o)~
+@21 = ~FrequÃªncia: 40 segundos, Probabilidade: 25%~
+@22 = ~FrequÃªncia: 40 segundos, Probabilidade: 50%~
+@30 = ~FrequÃªncia: 30 segundos, Probabilidade: 10%~
+@31 = ~FrequÃªncia: 30 segundos, Probabilidade: 25%~
+@32 = ~FrequÃªncia: 30 segundos, Probabilidade: 50%~
+@40 = ~FrequÃªncia: 10 segundos, Probabilidade: 10%~
+@41 = ~FrequÃªncia: 10 segundos, Probabilidade: 25%~
+@42 = ~FrequÃªncia: 10 segundos, Probabilidade: 50%~
+@99 = ~Definido-pelo-usuÃ¡rio~
 
-@100 = ~Não supportado por este jogo.~
-@101 = ~Número inválido especificado. Use integrais positivos.~
-@102 = ~O número está fora do alcance. Use valores entre 0 e 100.~
-@103 = ~Por favor especifique "s" pra sim, "n" pra não ou "c" pra cancelar.~
-@104 = ~Instalação cancelada pelo usuário.~
+@100 = ~NÃ£o supportado por este jogo.~
+@101 = ~NÃºmero invÃ¡lido especificado. Use integrais positivos.~
+@102 = ~O nÃºmero estÃ¡ fora do alcance. Use valores entre 0 e 100.~
+@103 = ~Por favor especifique "y" pra sim, "n" pra nÃ£o ou "c" pra cancelar.~
+@104 = ~InstalaÃ§Ã£o cancelada pelo usuÃ¡rio.~
 
-@200 = ~Insira a frequência em segundos:~
+@200 = ~Insira a frequÃªncia em segundos:~
 @201 = ~Insira a probabilidade (em porcentagem):~
-@202 = ~Use estes valores: frequência = %freq% segundos, probabilidade = %prob% porcentagem? ([S]im, [N]ão ou [C]ancelar):~
+@202 = ~Use estes valores: frequÃªncia = %freq% segundos, probabilidade = %prob% porcentagem? ([Y]Sim, [N]NÃ£o ou [C]ancelar):~
