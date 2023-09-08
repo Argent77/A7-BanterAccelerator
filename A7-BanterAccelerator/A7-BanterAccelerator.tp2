@@ -17,7 +17,7 @@ README ~A7-BanterAccelerator/readme/readme-%LANGUAGE%.txt~
 LANGUAGE ~English~
          ~english~
          ~A7-BanterAccelerator/languages/english/setup.tra~
-LANGUAGE ~French (Translation by Gwendolyne)~
+LANGUAGE ~French (Translation: Gwendolyne)~
          ~french~
          ~A7-BanterAccelerator/languages/english/setup.tra~
          ~A7-BanterAccelerator/languages/french/setup.tra~
@@ -25,6 +25,10 @@ LANGUAGE ~German~
          ~german~
          ~A7-BanterAccelerator/languages/english/setup.tra~
          ~A7-BanterAccelerator/languages/german/setup.tra~
+LANGUAGE ~Brazilian Portuguese (Translation: Felipe)~
+         ~brazilianportuguese~
+         ~A7-BanterAccelerator/languages/english/setup.tra~
+         ~A7-BanterAccelerator/languages/brazilianportuguese/setup.tra~
 
 BEGIN @10 // Frequency: 60 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
