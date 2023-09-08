@@ -30,6 +30,7 @@ BEGIN @10 // Frequency: 60 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 10
+  LABEL ~A7-BANTERACCELERATOR-60_10~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 10 END
 
@@ -37,6 +38,7 @@ BEGIN @11 // Frequency: 60 seconds, Probability: 25%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 11
+  LABEL ~A7-BANTERACCELERATOR-60_25~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 25 END
 
@@ -44,6 +46,7 @@ BEGIN @12 // Frequency: 60 seconds, Probability: 50%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 12
+  LABEL ~A7-BANTERACCELERATOR-60_50~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 900 probability = 50 END
 
@@ -51,6 +54,7 @@ BEGIN @20 // Frequency: 40 seconds, Probability: 10% (default)
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 20
+  LABEL ~A7-BANTERACCELERATOR-40_10~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 10 END
 
@@ -58,6 +62,7 @@ BEGIN @21 // Frequency: 40 seconds, Probability: 25%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 21
+  LABEL ~A7-BANTERACCELERATOR-40_25~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 25 END
 
@@ -65,6 +70,7 @@ BEGIN @22 // Frequency: 40 seconds, Probability: 50%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 22
+  LABEL ~A7-BANTERACCELERATOR-40_50~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 600 probability = 50 END
 
@@ -72,6 +78,7 @@ BEGIN @30 // Frequency: 30 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 30
+  LABEL ~A7-BANTERACCELERATOR-30_10~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 10 END
 
@@ -79,6 +86,7 @@ BEGIN @31 // Frequency: 30 seconds, Probability: 25%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 31
+  LABEL ~A7-BANTERACCELERATOR-30_25~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 25 END
 
@@ -86,6 +94,7 @@ BEGIN @32 // Frequency: 30 seconds, Probability: 50%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 32
+  LABEL ~A7-BANTERACCELERATOR-30_50~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 450 probability = 50 END
 
@@ -93,6 +102,7 @@ BEGIN @40 // Frequency: 10 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 40
+  LABEL ~A7-BANTERACCELERATOR-10_10~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 150 probability = 10 END
 
@@ -100,6 +110,7 @@ BEGIN @41 // Frequency: 10 seconds, Probability: 25%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 41
+  LABEL ~A7-BANTERACCELERATOR-10_25~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 150 probability = 25 END
 
@@ -107,6 +118,7 @@ BEGIN @42 // Frequency: 10 seconds, Probability: 50%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 42
+  LABEL ~A7-BANTERACCELERATOR-10_50~
 
   LAF SET_BANTER_VALUES INT_VAR frequency = 150 probability = 50 END
 
@@ -114,6 +126,7 @@ BEGIN @99 // User-defined
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
   DESIGNATED 99
+  LABEL ~A7-BANTERACCELERATOR-USERDEFINED~
 
   OUTER_SET accept = 0
   OUTER_WHILE (accept = 0) BEGIN
