@@ -1,10 +1,10 @@
 Banter Accelerator for Enhanced Edition games
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version:    1.4
+Version:    1.5
 Author:     Argent77
 
-Download:   https://
+Download:   https://github.com/Argent77/A7-BanterAccelerator/releases/latest
 Discussion: https://forums.beamdog.com/discussion/64551/mod-banter-accelerator-for-enhanced-edition-games
 
 
@@ -47,6 +47,8 @@ Coding and testing: Argent77
 
 French translation: Gwendolyne
 
+Brazilian Portuguese translation: Felipe
+
 
 Copyright Notice
 ~~~~~~~~~~~~~~~~
@@ -57,6 +59,10 @@ Attribution-ShareAlike 4.0 International License" (http://creativecommons.org/li
 
 History
 ~~~~~~~
+
+1.5
+- Added Brazilian Portuguese translation (thanks Felipe)
+- Added component labels for Project Infinity
 
 1.4
 - Added Project Infinity metadata

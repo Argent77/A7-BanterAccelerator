@@ -1,6 +1,6 @@
 BACKUP ~weidu_external/backup/A7-BanterAccelerator~
 SUPPORT ~https://forums.beamdog.com/discussion/64551~
-VERSION ~1.4~
+VERSION ~1.5~
 
 ALWAYS
   // required because of non-standard BACKUP path
@@ -17,14 +17,17 @@ README ~A7-BanterAccelerator/readme/readme-%LANGUAGE%.txt~
 LANGUAGE ~English~
          ~english~
          ~A7-BanterAccelerator/languages/english/setup.tra~
+
 LANGUAGE ~French (Translation: Gwendolyne)~
          ~french~
          ~A7-BanterAccelerator/languages/english/setup.tra~
          ~A7-BanterAccelerator/languages/french/setup.tra~
+
 LANGUAGE ~German~
          ~german~
          ~A7-BanterAccelerator/languages/english/setup.tra~
          ~A7-BanterAccelerator/languages/german/setup.tra~
+
 LANGUAGE ~Brazilian Portuguese (Translation: Felipe)~
          ~brazilianportuguese~
          ~A7-BanterAccelerator/languages/english/setup.tra~
