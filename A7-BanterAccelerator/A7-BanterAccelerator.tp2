@@ -33,6 +33,11 @@ LANGUAGE ~Brazilian Portuguese (Translation: Felipe)~
          ~A7-BanterAccelerator/languages/english/setup.tra~
          ~A7-BanterAccelerator/languages/brazilianportuguese/setup.tra~
 
+LANGUAGE ~Simplified Chinese~
+         ~schinese~
+         ~A7-BanterAccelerator/languages/english/setup.tra~
+         ~A7-BanterAccelerator/languages/schinese/setup.tra~
+
 BEGIN @10 // Frequency: 60 seconds, Probability: 10%
   REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~banttimg.2da~) @100 // Not supported by this game.
   SUBCOMPONENT @1 // Banter Accelerator
