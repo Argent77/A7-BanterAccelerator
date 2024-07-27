@@ -1,7 +1,7 @@
 Banterbeschleuniger für "Enhanced Edition"-Spiele
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version:    1.5
+Version:    1.6
 Autor:      Argent77
 
 Download:   https://github.com/Argent77/A7-BanterAccelerator/releases/latest
@@ -62,6 +62,9 @@ Attribution-ShareAlike 4.0 International License" (http://creativecommons.org/li
 
 History
 ~~~~~~~
+
+1.6
+- Added Simplified Chinese translation (thanks MephistoSatanDevil)
 
 1.5
 - Added Brazilian Portuguese translation (thanks Felipe)

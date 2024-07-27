@@ -1,7 +1,7 @@
 Accélérateur de bavardages pour les Éditions améliorées
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version        : 1.5
+Version        : 1.6
 Auteur         : Argent77
 
 Téléchargement : https://github.com/Argent77/A7-BanterAccelerator/releases/latest
@@ -63,6 +63,9 @@ Attribution-ShareAlike 4.0 International License" (http://creativecommons.org/li
 
 History
 ~~~~~~~
+
+1.6
+- Added Simplified Chinese translation (thanks MephistoSatanDevil)
 
 1.5
 - Added Brazilian Portuguese translation (thanks Felipe)
